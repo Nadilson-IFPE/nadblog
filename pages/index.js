@@ -2,16 +2,20 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import Head from 'next/head'
+import Post from '../components/Post'
 
 export default function Home({ posts }) {
-  console.log(posts)
   return (
     <div>
       <Head>
         <title>Blog do Nadilson</title>
       </Head>
 
-      <h2>Olá!</h2>
+      <div className='posts'>
+        {posts.map((post, index) => (
+          <Post post={post} />
+        ))}
+      </div>
     </div>
   )
 }
