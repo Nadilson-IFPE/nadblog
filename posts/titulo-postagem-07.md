@@ -1,6 +1,6 @@
 ---
 title: 'Título da Postagem 7'
-date: '5 de Abril de 2022'
+date: '09/04/2022'
 excerpt: 'Resumo da postagem 7'
 cover_image: '/images/posts/img7.jpg'
 ---

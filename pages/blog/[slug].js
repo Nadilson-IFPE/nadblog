@@ -3,13 +3,28 @@ import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
 import Link from "next/link";
+import Image from 'next/image';
 
 export default function PostPage({
   frontmatter: { title, date, cover_image },
   slug,
   content,
 }) {
-  return <div>{title}</div>;
+  return (
+    <>
+      <Link href="/">
+        <a className="btn btn-back"> Voltar</a>
+      </Link>
+      <div className="card card-page">
+        <h1 className="post-title">{title}</h1>
+        <div className="post-date">Postado em {date}</div>
+        <Image src={cover_image} alt="" width={688} height={458} />
+        <div className="post-body">
+          <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+        </div>
+      </div>
+    </>
+  );
 }
 
 export async function getStaticPaths() {
