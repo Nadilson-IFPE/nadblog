@@ -2,7 +2,7 @@
 title: 'Título da Postagem 4'
 date: '06/04/2022'
 excerpt: 'Resumo da postagem 4'
-cover_image: '/images/posts/img6.jpg'
+cover_image: '/images/posts/image04.jpg'
 ---
 
 Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat

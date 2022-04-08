@@ -2,7 +2,7 @@
 title: 'Título da Postagem 7'
 date: '09/04/2022'
 excerpt: 'Resumo da postagem 7'
-cover_image: '/images/posts/img7.jpg'
+cover_image: '/images/posts/image07.jpg'
 ---
 
 Lorem [markdownum](http://insunt.org/inpositaque), et sanguine rutilos dixit

@@ -2,7 +2,7 @@
 title: "Título da Postagem 3"
 date: '05/04/2022'
 excerpt: 'Resumo da postagem 3'
-cover_image: '/images/posts/img4.jpg'
+cover_image: '/images/posts/image03.jpg'
 ---
 
 Lorem markdownum erat meritum instat quis! Parari vera harundinibus molibus nam

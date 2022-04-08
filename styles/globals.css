@@ -30,6 +30,8 @@ header {
   color: #fff;
   padding: 5px;
   margin-bottom: 40px;
+  position: sticky;
+  top: 0;
 }
 
 header a {
